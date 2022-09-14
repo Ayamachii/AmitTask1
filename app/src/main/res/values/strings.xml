@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FirstTask</string>
+    <string name="searchStore">Search for products or stores</string>
+    <string name="dwagen">Within 21 minutes</string>
+    <string name="togo">Hypermarket</string>
+    <string name="wataneya">Dwagen El Watanya</string>
+    <string name="togo_bottom">Whithin 20 minutes</string>
+    <string name="togomid">Hypermarket</string>
+    <string name="togoup">2GO Supermarket</string>
+    <string name="talabatbottom">Whithin 20 minutes</string>
+    <string name="talabatmid">Grovery, Convenience store</string>
+    <string name="talabatup">talabat mart</string>
+    <string name="shopby">Shop by store type</string>
+    <string name="midbutton">Popular stores</string>
+    <string name="leftbotton">Use Voucher</string>
+    <string name="rightbutton">Fast delivery</string>
+    <string name="paragraphstr">Fill your fridge with all your groceries in 20 mins</string>
+    <string name="deliveredin">Delivered in 20 Mins</string>
+    <string name="search_hint">Search for products or stores</string>
+    <string name="shopnow">Shop NOW</string>
+    <string name="deliverinto">Delivering to</string>
+    <string name="distination">Mogama\'a El Mahakem</string>
+</resources>
