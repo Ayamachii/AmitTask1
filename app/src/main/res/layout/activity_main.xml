@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+    </data>
+<androidx.core.widget.NestedScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -19,7 +24,7 @@
             app:layout_constraintTop_toTopOf="parent"
             />
         <LinearLayout
-            android:id="@+id/lineartextlayout"
+            android:id="@+id/tvAddress"
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="10dp"
             app:layout_constraintStart_toEndOf="@id/back_arrow"
@@ -59,19 +64,21 @@
             app:hintTextAppearance="@android:style/TextAppearance.Small"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/lineartextlayout"
+            app:layout_constraintTop_toBottomOf="@id/tvAddress"
             android:id="@+id/searchTIL"
             app:boxStrokeColor="@color/black"
-            app:hintTextColor="@color/mylightgray"
+            app:hintTextColor="@color/mydarkerorange"
             android:textColor="@color/black"
+
             android:layout_width="0dp"
             android:layout_weight="4"
             android:gravity="center"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+
             android:background="@android:color/transparent"
             android:hint="@string/searchStore"
-            android:textColorHint="#878787"
+            android:textColorHint="@color/mylightgray"
             android:textSize="13sp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             app:endIconMode="clear_text"
@@ -355,3 +362,4 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>
+</layout>
